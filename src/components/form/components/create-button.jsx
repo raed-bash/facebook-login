@@ -4,7 +4,7 @@ export default function CreateButton(props) {
   return (
     <ButtonBase
       sx={{
-        width: "66.400vw",
+        width: "80%",
         height: 35.6,
         cursor: "auto",
         borderRadius: "4px",

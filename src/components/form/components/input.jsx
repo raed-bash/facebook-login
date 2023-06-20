@@ -21,6 +21,7 @@ export default function Input(props) {
         py: 1,
         fontSize: 15,
         height: 42,
+        color: "#000",
       }}
       onFocus={() => setFocus(afterFocusBorder)}
       onBlur={() => setFocus(defaultBorder)}

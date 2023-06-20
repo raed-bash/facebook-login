@@ -26,10 +26,15 @@ export default function Language() {
         }}
       ></Box>
       <Grid container rowSpacing={0}>
-        {languages.map(({ lang, icon }, index) => (
+        {languages.map(({ lang, icon, selected }, index) => (
           <Grid item xs={6} key={index}>
             <Typography
-              sx={{ fontSize: 12, textAlign: "center", color: "#576b95" }}
+              sx={{
+                fontSize: 12,
+                textAlign: "center",
+                color: selected ? "#90949c" : "#576b95",
+                fontWeight: selected && "600",
+              }}
             >
               {lang ? (
                 lang
