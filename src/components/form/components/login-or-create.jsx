@@ -10,7 +10,7 @@ export default function LoginOrCreate() {
     <Box sx={{ display: "flex", width: "100%", alignItems: "center" }}>
       <StyledBorder></StyledBorder>
       <Box sx={{ mx: 2 }}>
-        <Typography sx={{ fontSize: 12 }}>أو</Typography>
+        <Typography sx={{ fontSize: 12, color: "#4b4f56" }}>أو</Typography>
       </Box>
       <StyledBorder></StyledBorder>
     </Box>
